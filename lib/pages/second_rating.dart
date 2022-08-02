@@ -19,35 +19,35 @@ class SecondRating extends StatelessWidget {
                 Center(
                   child: Image.asset('assets/rating_light.png', width: 294),
                 ),
-                SizedBox(height: 50),
+                const SizedBox(height: 50),
                 Text(
                   'Enjoy Your Meal',
                   style: ratingLightHeadingText,
                 ),
-                SizedBox(height: 6),
+                const SizedBox(height: 6),
                 Text(
                   'Please rate our experience',
                   style: ratingLightDescText,
                 ),
-                SizedBox(height: 50),
+                const SizedBox(height: 50),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     IconButton(
                       iconSize: 40,
-                      color: Color(0xffFFC648),
+                      color: const Color(0xffFFC648),
                       icon: const Icon(Icons.star),
                       onPressed: () {},
                     ),
                     IconButton(
                       iconSize: 40,
-                      color: Color(0xffFFC648),
+                      color: const Color(0xffFFC648),
                       icon: const Icon(Icons.star),
                       onPressed: () {},
                     ),
                     IconButton(
                       iconSize: 40,
-                      color: Color(0xffFFC648),
+                      color: const Color(0xffFFC648),
                       icon: const Icon(
                         Icons.star,
                       ),
@@ -65,25 +65,25 @@ class SecondRating extends StatelessWidget {
                     ),
                   ],
                 ),
-                SizedBox(height: 40),
+                const SizedBox(height: 40),
                 TextFormField(
                   maxLines: 5,
                   decoration: InputDecoration(
                     hintText: 'Tell us about your experience',
                     fillColor: Colors.amberAccent.withOpacity(0.3),
                     filled: true,
-                    contentPadding: EdgeInsets.all(16.0),
+                    contentPadding: const EdgeInsets.all(16.0),
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(17),
                       borderSide: BorderSide.none,
                     ),
                   ),
                 ),
-                SizedBox(height: 30),
+                const SizedBox(height: 30),
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                    minimumSize: Size.fromHeight(55),
-                    primary: Color(0xff4074E6),
+                    minimumSize: const Size.fromHeight(55),
+                    primary: const Color(0xff4074E6),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(13),
                     ),

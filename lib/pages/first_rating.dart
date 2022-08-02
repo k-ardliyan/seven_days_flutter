@@ -7,7 +7,7 @@ class FirstRating extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xff181925),
+      backgroundColor: const Color(0xff181925),
       body: SafeArea(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -18,19 +18,19 @@ class FirstRating extends StatelessWidget {
                 width: 200,
               ),
             ),
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
             Text(
               'Pizza Balado',
               style: ratingDarkHeadingText,
             ),
-            SizedBox(height: 4),
+            const SizedBox(height: 4),
             Text(
               '\$90,00',
               style: ratingDarkPriceText,
             ),
-            SizedBox(height: 124),
+            const SizedBox(height: 124),
             Padding(
-              padding: EdgeInsets.symmetric(horizontal: 36),
+              padding: const EdgeInsets.symmetric(horizontal: 36),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -39,18 +39,18 @@ class FirstRating extends StatelessWidget {
                     style: ratingDarkChoiceText,
                     textAlign: TextAlign.left,
                   ),
-                  SizedBox(height: 20),
+                  const SizedBox(height: 20),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       ElevatedButton(
                         style: ElevatedButton.styleFrom(
-                          primary: Color(0xff37394D),
-                          shape: CircleBorder(),
-                          minimumSize: Size(60, 60),
+                          primary: const Color(0xff37394D),
+                          shape: const CircleBorder(),
+                          minimumSize: const Size(60, 60),
                         ),
                         onPressed: () => {},
-                        child: Text(
+                        child: const Text(
                           '😡',
                           style: TextStyle(
                             fontSize: 28,
@@ -59,12 +59,12 @@ class FirstRating extends StatelessWidget {
                       ),
                       ElevatedButton(
                         style: ElevatedButton.styleFrom(
-                          primary: Color(0xff37394D),
-                          shape: CircleBorder(),
-                          minimumSize: Size(60, 60),
+                          primary: const Color(0xff37394D),
+                          shape: const CircleBorder(),
+                          minimumSize: const Size(60, 60),
                         ),
                         onPressed: () => {},
-                        child: Text(
+                        child: const Text(
                           '😔',
                           style: TextStyle(
                             fontSize: 28,
@@ -73,12 +73,12 @@ class FirstRating extends StatelessWidget {
                       ),
                       ElevatedButton(
                         style: ElevatedButton.styleFrom(
-                          primary: Color(0xff37394D),
-                          shape: CircleBorder(),
-                          minimumSize: Size(60, 60),
+                          primary: const Color(0xff37394D),
+                          shape: const CircleBorder(),
+                          minimumSize: const Size(60, 60),
                         ),
                         onPressed: () => {},
-                        child: Text(
+                        child: const Text(
                           '😁',
                           style: TextStyle(
                             fontSize: 28,
@@ -87,12 +87,12 @@ class FirstRating extends StatelessWidget {
                       ),
                       ElevatedButton(
                         style: ElevatedButton.styleFrom(
-                          primary: Color(0xff37394D),
-                          shape: CircleBorder(),
-                          minimumSize: Size(60, 60),
+                          primary: const Color(0xff37394D),
+                          shape: const CircleBorder(),
+                          minimumSize: const Size(60, 60),
                         ),
                         onPressed: () => {},
-                        child: Text(
+                        child: const Text(
                           '😍',
                           style: TextStyle(
                             fontSize: 28,
@@ -101,17 +101,17 @@ class FirstRating extends StatelessWidget {
                       ),
                     ],
                   ),
-                  SizedBox(height: 90),
+                  const SizedBox(height: 90),
                   Center(
                     child: ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        primary: Color(0xff34D186),
-                        minimumSize: Size(210, 55),
+                        primary: const Color(0xff34D186),
+                        minimumSize: const Size(210, 55),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(60),
                         ),
                       ),
-                      child: Text('Rate Now'),
+                      child: const Text('Rate Now'),
                       onPressed: () => {},
                     ),
                   ),

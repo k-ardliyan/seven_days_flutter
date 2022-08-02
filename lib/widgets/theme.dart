@@ -20,34 +20,34 @@ TextStyle ratingDarkChoiceText = GoogleFonts.poppins(
 TextStyle ratingLightHeadingText = GoogleFonts.poppins(
   fontSize: 24,
   fontWeight: FontWeight.w600,
-  color: Color(0xff121622),
+  color: const Color(0xff121622),
 );
 
 TextStyle ratingLightDescText = GoogleFonts.poppins(
   fontSize: 16,
-  color: Color(0xff808EAB),
+  color: const Color(0xff808EAB),
 );
 
 TextStyle pricingLightHeadingText = GoogleFonts.poppins(
   fontSize: 22,
   fontWeight: FontWeight.w600,
-  color: Color(0xff121622),
+  color: const Color(0xff121622),
 );
 
 TextStyle pricingLightHeadingText2 = GoogleFonts.poppins(
   fontSize: 16,
   fontWeight: FontWeight.w500,
-  color: Color(0xff121622),
+  color: const Color(0xff121622),
 );
 
 TextStyle pricingLightDescText = GoogleFonts.poppins(
   fontSize: 14,
-  color: Color(0xffA3A8B8),
+  color: const Color(0xffA3A8B8),
 );
 
 TextStyle pricingLightDescText2 = GoogleFonts.poppins(
   fontSize: 12,
-  color: Color(0xff5343C2),
+  color: const Color(0xff5343C2),
 );
 
 TextStyle pricingLightSubmitText = GoogleFonts.poppins(

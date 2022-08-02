@@ -32,10 +32,10 @@ class SecondEmpty extends StatelessWidget {
           const SizedBox(height: 60),
           ElevatedButton(
             style: ElevatedButton.styleFrom(
-                primary: Color(0xff808EE0),
-                shape: CircleBorder(),
-                minimumSize: Size.fromHeight(65)),
-            child: Icon(Icons.rocket_launch_outlined, size: 32),
+                primary: const Color(0xff808EE0),
+                shape: const CircleBorder(),
+                minimumSize: const Size.fromHeight(65)),
+            child: const Icon(Icons.rocket_launch_outlined, size: 32),
             onPressed: () => {},
           )
         ],

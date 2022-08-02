@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:seven_days_flutter/widgets/theme.dart';
 
 class FirstEmpty extends StatelessWidget {
   const FirstEmpty({Key? key}) : super(key: key);
@@ -22,7 +21,7 @@ class FirstEmpty extends StatelessWidget {
               style: GoogleFonts.poppins(
                 fontSize: 24,
                 fontWeight: FontWeight.w600,
-                color: Color(0xff0E1954),
+                color: const Color(0xff0E1954),
               ),
             ),
             const SizedBox(height: 16),
@@ -31,17 +30,17 @@ class FirstEmpty extends StatelessWidget {
               textAlign: TextAlign.center,
               style: GoogleFonts.poppins(
                 fontSize: 16,
-                color: Color(0xff0E1954),
+                color: const Color(0xff0E1954),
               ),
             ),
             const SizedBox(height: 50),
             ElevatedButton(
               style: ElevatedButton.styleFrom(
-                minimumSize: Size(200, 55),
+                minimumSize: const Size(200, 55),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(17),
                 ),
-                primary: Color(0xffF94593),
+                primary: const Color(0xffF94593),
               ),
               child: Text(
                 'Done',
