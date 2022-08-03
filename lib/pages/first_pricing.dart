@@ -77,7 +77,7 @@ class _FirstPricingState extends State<FirstPricing> {
             Padding(
               padding: const EdgeInsets.only(right: 16),
               child: selectedIndex == index
-                  ? Image.asset('pricing_light_check.png', width: 24)
+                  ? Image.asset('assets/pricing_light_check.png', width: 24)
                   : const Text(''),
             ),
           ],

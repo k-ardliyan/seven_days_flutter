@@ -55,3 +55,54 @@ TextStyle pricingLightSubmitText = GoogleFonts.poppins(
   fontWeight: FontWeight.w600,
   color: Colors.white,
 );
+
+TextStyle pricingDarkHeadingText = GoogleFonts.poppins(
+  fontSize: 22,
+  fontWeight: FontWeight.w600,
+  color: Colors.white,
+);
+
+TextStyle pricingDarkDescText = GoogleFonts.poppins(
+  fontSize: 16,
+  color: const Color(0xff7F7FAD),
+);
+
+TextStyle pricingDarkListText = GoogleFonts.poppins(
+  fontSize: 16,
+  color: Colors.white,
+);
+
+TextStyle pricingDarkBtnText = GoogleFonts.poppins(
+  fontSize: 16,
+  fontWeight: FontWeight.w600,
+  color: Colors.white,
+);
+
+TextStyle pricingDarkBtn2Text = GoogleFonts.poppins(
+  decoration: TextDecoration.underline,
+  fontSize: 16,
+  color: Colors.white,
+);
+
+TextStyle randomOneHeadingText = GoogleFonts.poppins(
+  fontSize: 22,
+  fontWeight: FontWeight.w600,
+  color: const Color(0xff191919),
+);
+
+TextStyle randomListHeadingText = GoogleFonts.poppins(
+  fontSize: 18,
+  fontWeight: FontWeight.w500,
+  color: const Color(0xff191919),
+);
+
+TextStyle randomListDescText = GoogleFonts.poppins(
+  fontSize: 14,
+  color: const Color(0xffA3A8B8),
+);
+
+TextStyle randomListPriceText = GoogleFonts.poppins(
+  fontSize: 16,
+  fontWeight: FontWeight.w600,
+  color: const Color(0xff191919),
+);
