@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class SecondStarted extends StatelessWidget {
-  const SecondStarted({Key? key}) : super(key: key);
+  const SecondStarted({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -39,7 +39,7 @@ class SecondStarted extends StatelessWidget {
                 const SizedBox(height: 40),
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                      primary: const Color(0xffAFEA0D),
+                      backgroundColor: const Color(0xffAFEA0D),
                       minimumSize: const Size.fromHeight(55)),
                   onPressed: () => {},
                   child: Text(

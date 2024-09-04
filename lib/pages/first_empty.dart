@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class FirstEmpty extends StatelessWidget {
-  const FirstEmpty({Key? key}) : super(key: key);
+  const FirstEmpty({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -36,11 +36,10 @@ class FirstEmpty extends StatelessWidget {
             const SizedBox(height: 50),
             ElevatedButton(
               style: ElevatedButton.styleFrom(
-                minimumSize: const Size(200, 55),
+                minimumSize: const Size(200, 55), backgroundColor: const Color(0xffF94593),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(17),
                 ),
-                primary: const Color(0xffF94593),
               ),
               child: Text(
                 'Done',

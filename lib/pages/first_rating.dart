@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:seven_days_flutter/widgets/theme.dart';
 
 class FirstRating extends StatelessWidget {
-  const FirstRating({Key? key}) : super(key: key);
+  const FirstRating({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -45,7 +45,7 @@ class FirstRating extends StatelessWidget {
                     children: [
                       ElevatedButton(
                         style: ElevatedButton.styleFrom(
-                          primary: const Color(0xff37394D),
+                          backgroundColor: const Color(0xff37394D),
                           shape: const CircleBorder(),
                           minimumSize: const Size(60, 60),
                         ),
@@ -59,7 +59,7 @@ class FirstRating extends StatelessWidget {
                       ),
                       ElevatedButton(
                         style: ElevatedButton.styleFrom(
-                          primary: const Color(0xff37394D),
+                          backgroundColor: const Color(0xff37394D),
                           shape: const CircleBorder(),
                           minimumSize: const Size(60, 60),
                         ),
@@ -73,7 +73,7 @@ class FirstRating extends StatelessWidget {
                       ),
                       ElevatedButton(
                         style: ElevatedButton.styleFrom(
-                          primary: const Color(0xff37394D),
+                          backgroundColor: const Color(0xff37394D),
                           shape: const CircleBorder(),
                           minimumSize: const Size(60, 60),
                         ),
@@ -87,7 +87,7 @@ class FirstRating extends StatelessWidget {
                       ),
                       ElevatedButton(
                         style: ElevatedButton.styleFrom(
-                          primary: const Color(0xff37394D),
+                          backgroundColor: const Color(0xff37394D),
                           shape: const CircleBorder(),
                           minimumSize: const Size(60, 60),
                         ),
@@ -105,7 +105,7 @@ class FirstRating extends StatelessWidget {
                   Center(
                     child: ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        primary: const Color(0xff34D186),
+                        backgroundColor: const Color(0xff34D186),
                         minimumSize: const Size(210, 55),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(60),

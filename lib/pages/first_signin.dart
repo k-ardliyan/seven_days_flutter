@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class FirstSignIn extends StatelessWidget {
-  const FirstSignIn({Key? key}) : super(key: key);
+  const FirstSignIn({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -90,8 +90,7 @@ class FirstSignIn extends StatelessWidget {
                 const SizedBox(height: 117),
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                    minimumSize: const Size.fromHeight(55),
-                    primary: const Color(0xffFCAC15),
+                    minimumSize: const Size.fromHeight(55), backgroundColor: const Color(0xffFCAC15),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(17),
                     ),

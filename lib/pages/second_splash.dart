@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class SecondSplash extends StatelessWidget {
-  const SecondSplash({Key? key}) : super(key: key);
+  const SecondSplash({super.key});
 
   @override
   Widget build(BuildContext context) {

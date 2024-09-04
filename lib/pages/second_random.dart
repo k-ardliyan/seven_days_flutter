@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class SecondRandom extends StatelessWidget {
-  const SecondRandom({Key? key}) : super(key: key);
+  const SecondRandom({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -111,7 +111,7 @@ class SecondRandom extends StatelessWidget {
               const SizedBox(width: 31),
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  primary: const Color(0xff3F6DF6),
+                  backgroundColor: const Color(0xff3F6DF6),
                   minimumSize: const Size(220, 60),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(20),

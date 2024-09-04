@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class SecondSignIn extends StatelessWidget {
-  const SecondSignIn({Key? key}) : super(key: key);
+  const SecondSignIn({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -65,7 +65,7 @@ class SecondSignIn extends StatelessWidget {
                     const SizedBox(height: 50),
                     ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        primary: const Color(0xff5468FF),
+                        backgroundColor: const Color(0xff5468FF),
                         minimumSize: const Size.fromHeight(55),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(60),
@@ -83,8 +83,7 @@ class SecondSignIn extends StatelessWidget {
                     const SizedBox(height: 16),
                     ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.white,
-                        onPrimary: Colors.white,
+                        foregroundColor: Colors.white, backgroundColor: Colors.white,
                         minimumSize: const Size.fromHeight(55),
                         // hide box shadows
                         elevation: 0,

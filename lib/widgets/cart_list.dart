@@ -2,19 +2,21 @@ import 'package:flutter/material.dart';
 import 'package:seven_days_flutter/widgets/theme.dart';
 
 class CartList extends StatelessWidget {
-  double price;
-  int amount;
-  String foodName;
-  String imageUrl;
-  String place;
-  CartList({
-    Key? key,
+  final double price;
+  final int amount;
+  final String foodName;
+  final String imageUrl;
+  final String place;
+
+  const CartList({
+    super.key,
     required this.price,
     required this.amount,
     required this.foodName,
     required this.imageUrl,
     required this.place,
-  }) : super(key: key);
+  });
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -55,7 +57,7 @@ class CartList extends StatelessWidget {
                 children: [
                   ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.black12,
+                      backgroundColor: Colors.black12,
                       elevation: 0,
                       shadowColor: Colors.white,
                       minimumSize: const Size(22, 22),
@@ -72,7 +74,7 @@ class CartList extends StatelessWidget {
                   ),
                   ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.black,
+                      backgroundColor: Colors.black,
                       minimumSize: const Size(22, 22),
                       shape: const CircleBorder(),
                       visualDensity: const VisualDensity(

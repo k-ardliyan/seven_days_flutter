@@ -1,0 +1,10 @@
+{
+  "configurations": [
+    {
+      "name": "Run SevenDaysApp",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "debug"
+    }
+  ]
+}

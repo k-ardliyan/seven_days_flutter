@@ -3,7 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:seven_days_flutter/widgets/theme.dart';
 
 class SecondRating extends StatelessWidget {
-  const SecondRating({Key? key}) : super(key: key);
+  const SecondRating({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -82,8 +82,7 @@ class SecondRating extends StatelessWidget {
                 const SizedBox(height: 30),
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                    minimumSize: const Size.fromHeight(55),
-                    primary: const Color(0xff4074E6),
+                    minimumSize: const Size.fromHeight(55), backgroundColor: const Color(0xff4074E6),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(13),
                     ),

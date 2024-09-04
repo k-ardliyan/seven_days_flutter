@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:seven_days_flutter/widgets/theme.dart';
 
 class FirstPricing extends StatefulWidget {
-  const FirstPricing({Key? key}) : super(key: key);
+  const FirstPricing({super.key});
 
   @override
   State<FirstPricing> createState() => _FirstPricingState();
@@ -29,7 +29,7 @@ class _FirstPricingState extends State<FirstPricing> {
     Widget option(int index, image, title, subtitle, subtitle2) {
       return ElevatedButton(
         style: ElevatedButton.styleFrom(
-          primary: Colors.white,
+          backgroundColor: Colors.white,
           shadowColor: Colors.white,
           minimumSize: const Size.fromHeight(100),
           shape: RoundedRectangleBorder(

@@ -4,7 +4,7 @@ import 'package:seven_days_flutter/widgets/theme.dart';
 import 'package:seven_days_flutter/widgets/cart_list.dart';
 
 class FirstRandom extends StatelessWidget {
-  const FirstRandom({Key? key}) : super(key: key);
+  const FirstRandom({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +20,7 @@ class FirstRandom extends StatelessWidget {
                   child: Text('My Shopping Cart', style: randomOneHeadingText),
                 ),
                 const SizedBox(height: 26),
-                CartList(
+                const CartList(
                   price: 90,
                   amount: 2,
                   foodName: 'Burger Malleta',
@@ -28,7 +28,7 @@ class FirstRandom extends StatelessWidget {
                   imageUrl: 'assets/random_burger.png',
                 ),
                 const SizedBox(height: 26),
-                CartList(
+                const CartList(
                   price: 510,
                   amount: 5,
                   foodName: 'Mojito Orange',
@@ -116,8 +116,8 @@ class FirstRandom extends StatelessWidget {
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
                     elevation: 10,
+                    backgroundColor: const Color(0xffFFC532),
                     shadowColor: const Color(0xffFFC532),
-                    primary: const Color(0xffFFC532),
                     minimumSize: const Size.fromHeight(60),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(52),
@@ -137,7 +137,7 @@ class FirstRandom extends StatelessWidget {
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
                     elevation: 0,
-                    primary: const Color(0xffD9D9D9),
+                    backgroundColor: const Color(0xffD9D9D9),
                     minimumSize: const Size.fromHeight(60),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(52),

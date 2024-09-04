@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:seven_days_flutter/widgets/theme.dart';
 
 class SecondPricing extends StatelessWidget {
-  const SecondPricing({Key? key}) : super(key: key);
+  const SecondPricing({super.key});
   Widget list(String text) {
     return Row(
       children: [
@@ -55,7 +55,7 @@ class SecondPricing extends StatelessWidget {
                   const SizedBox(height: 50),
                   ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      primary: const Color(0xffE57C73),
+                      backgroundColor: const Color(0xffE57C73),
                       elevation: 40,
                       shadowColor: const Color(0xffE57C73),
                       minimumSize: const Size.fromHeight(55),
